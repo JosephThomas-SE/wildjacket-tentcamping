@@ -44,7 +44,6 @@ const plans = [
       "Everything in Full Board Camp +",
       "BBQ Grilled Chicken Dinner",
       "Campfire & Music",
-      "Add-ons included",
     ],
     fullDetails: [
       "Single: ₹1700",
