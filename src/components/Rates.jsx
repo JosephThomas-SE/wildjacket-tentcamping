@@ -82,11 +82,11 @@ const Rates = () => {
               </h2>
               <ul className="text-sm list-disc list-inside space-y-1">
                 {plan.shortDetails.map((detail, i) => (
-                  <li key={i}>• {detail}</li>
+                  <li key={i}> {detail}</li>
                 ))}
                 {expanded[index] &&
                   plan.fullDetails.map((detail, i) => (
-                    <li key={`full-${i}`}>• {detail}</li>
+                    <li key={`full-${i}`}> {detail}</li>
                   ))}
               </ul>
               {plan.fullDetails.length > 0 && (
