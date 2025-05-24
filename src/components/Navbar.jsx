@@ -46,7 +46,7 @@ const Navbar = () => {
             ["Packages", "/rates"],
             ["Policies", "/policies"],
             //["Gallery", "/gallery"],
-            //["Contact Us", "/contact"],
+            ["Contact Us", "/contact"],
           ].map(([label, href]) => (
             <Link
               key={label}
@@ -92,7 +92,7 @@ const Navbar = () => {
                 ["Packages", "/rates"],
                 ["Policies", "/policies"],
                 //["Gallery", "/gallery"],
-                //["Contact Us", "/contact"],
+                ["Contact Us", "/contact"],
               ].map(([label, href]) => (
                 <Link
                   key={label}
