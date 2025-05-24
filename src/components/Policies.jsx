@@ -96,7 +96,7 @@ const Policies = () => {
         Camp Policies – Vagamon Tent Camping
       </h1>
 
-      <div className="max-w-4xl mx-auto space-y-4">
+      <div className="max-w-6xl mx-auto grid gap-4 md:grid-cols-2 lg:grid-cols-3">
         {policies.map((policy, index) => (
           <Card key={index} className="bg-white text-green-900">
             <CardContent>
@@ -108,7 +108,7 @@ const Policies = () => {
                 type="button"
               >
                 <div className="flex items-center space-x-2">
-                  <h2 className="text-lg font-semibold">{policy.title}</h2>
+                  <h2 className="text-xl font-bold">{policy.title}</h2>
                   {policy.tag && (
                     <span className="bg-red-500 text-white text-xs font-semibold px-2 py-0.5 rounded-full select-none">
                       {policy.tag}

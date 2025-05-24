@@ -33,7 +33,7 @@ export default function HomePage() {
               <h3 className="text-xl font-semibold mb-2">🌄 Breathtaking Mountain Views</h3>
               <p>
                 Wake up to panoramic views of misty mountains. Our campsite is located on a secluded ridge
-                that offers a 360° view of Vagamon's beauty.
+                that offers a 360° view of Vagamon&#39;s beauty.
               </p>
             </div>
             <div>
@@ -53,7 +53,7 @@ export default function HomePage() {
             <div>
               <h3 className="text-xl font-semibold mb-2">🚙 Jeep Safari Add-On</h3>
               <p>
-                Craving more thrill? Hop on a rugged jeep safari across Vagamon's hidden trails and off-road
+                Craving more thrill? Hop on a rugged jeep safari across Vagamon&#39;s hidden trails and off-road
                 wonders — bookable on demand.
               </p>
             </div>
@@ -89,7 +89,7 @@ export default function HomePage() {
         <section className="mt-16 text-center">
           <h2 className="text-3xl font-bold text-green-800 mb-4">📞 Contact & Bookings</h2>
           <p className="text-green-800 max-w-xl mx-auto mb-6">
-            Call or WhatsApp us at <strong>+91 62385 70441</strong>. We're happy to help you plan your perfect Vagamon getaway.
+            Call or WhatsApp us at <strong>+91 62385 70441</strong>. We&#39;re happy to help you plan your perfect Vagamon getaway.
           </p>
           <Link
             href="/contact"
